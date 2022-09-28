@@ -2,4 +2,4 @@
 strava analysis
 
 
-[gleprince.github.io/strava-analysis](https://gleprince.github.io/stravart/database/test.html)
+[gleprince.github.io/stravart](https://gleprince.github.io/stravart/database/test.html)
