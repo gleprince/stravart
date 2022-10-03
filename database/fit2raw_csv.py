@@ -3,11 +3,10 @@ import os
 import subprocess
 import re
 
-path = "C:\\Users\\guilhem.leprince\\Documents\\strava"
+path = "C:\Users\Guilhem Leprince\Documents\repo"
 
-# imp module
-# assign directory
-directory = path + "\\data\\remi\\activities"
+
+directory = path + "\data\manue\activities"
 FIT_FILE = re.compile("\\d+.fit(?!.gz)")
 GPX_FILE = re.compile("\\d+.gpx")
 CSV_FILE = re.compile("\\d+.csv")
@@ -26,7 +25,7 @@ for filename in os.listdir(directory):
 
 # Use only when decoding fit file needed
 for fit_file in list_of_fit_files:
-    subprocess.call("java -jar C:\\Users\\guilhem.leprince\\Documents\\strava\\sdk\\java\\FitCSVTool.jar " + fit_file)
+    subprocess.call("java -jar C:\\Program Files\\fitSDK\\java\\FitCSVTool.jar " + fit_file)
 
 for filename in os.listdir(directory):
     f = os.path.join(directory, filename)
