@@ -13,7 +13,7 @@ Then python and the following libraries :
 The structure of folder should be :
 
 - project_name
-- - this current repo
+- - this "stravart" repo
 - - data
 - - - name1
 - - - - his strava data folder
@@ -26,12 +26,13 @@ The structure of folder should be :
 - - - - name2
 - - - - - csv
 - - - - - kml
+
 The output is located in the kml folder
 
 Then the process is as follow : 
 
-- 1. Unzip all the .gz files in the nameX/activity/ folder with unzip_files.bat (you have to locate your terminal inside this folder)
-- 2. Run fit2raw_csv.ipynb
-- 3. Run raw_csv2csv.ipynb
-- 4. Run generate_kml_tracemap.ipynb
-- 5. The map is created in the kml folder !
+1. Unzip all the .gz files in the nameX/activity/ folder with unzip_files.bat (you have to locate your terminal inside this folder)
+2. Run fit2raw_csv.ipynb
+3. Run raw_csv2csv.ipynb
+4. Run generate_kml_tracemap.ipynb
+5. The map is created in the kml folder !
