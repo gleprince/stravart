@@ -39,7 +39,8 @@ activity_nb = {
     "Swim" : 12,
     "Entraînement" : 13,
     "Workout" :13,
-    "Snowshoe": 14}
+    "Snowshoe": 14,
+    "Raquettes" : 14}
 
 
 description_activity= {
