@@ -1,5 +1,13 @@
 # stravart : strava analysis
 
+## Project Description
+
+TODO:
+- add description
+- add screenshots
+
+## How-to
+
 All the process is located in the main folder
 
 First you need to download : 
@@ -40,3 +48,14 @@ Then the process is as follow :
 3. Run raw_csv2csv.ipynb
 4. Run generate_kml_tracemap.ipynb
 5. The map is created in the kml folder !
+
+
+## Contribute :factory-worker:
+
+* Install [poetry](https://python-poetry.org/)
+* Run the following commands in you cloned version of this repo
+  ```sh
+  poetry install
+  poetry shell
+  jupyter-lab
+  ```
