@@ -12,20 +12,24 @@ Then python and the following libraries :
 
 The structure of folder should be :
 
-- project_name
-- - this "stravart" repo
-- - data
-- - - name1
-- - - - his strava data folder
-- - - name2
-- - - - his strava data folder
-- - - processed_data
-- - - - name1
-- - - - - csv
-- - - - - kml
-- - - - name2
-- - - - - csv
-- - - - - kml
+```
+.
+└── project_name
+    ├── data
+    │   ├── processed_data
+    │   │   ├── user1
+    │   │   │   ├── csv
+    │   │   │   └── kml
+    │   │   └── user2
+    │   │       ├── csv
+    │   │       └── kml
+    │   ├── user1
+    │   │   └── all_strava_data_from_user1
+    │   └── user2
+    │       └── all_strava_data_from_user2
+    └── stravart
+```
+
 
 The output is located in the kml folder
 
