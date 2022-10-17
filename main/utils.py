@@ -40,7 +40,10 @@ activity_nb = {
     "Entraînement" : 13,
     "Workout" :13,
     "Snowshoe": 14,
-    "Raquettes" : 14}
+    "Raquettes" : 14,
+    "Yoga" : 15,
+    "Aviron" : 16,
+    "Fauteuil roulant" : 17}
 
 
 description_activity= {
@@ -57,7 +60,10 @@ description_activity= {
     11 : "Ski nordique",
     12 : "Natation",
     13 : "Training",
-    14 : "Raquette de ses morts"
+    14 : "Raquette de ses morts",
+    15 : "Yoga",
+    16 : "Aviron",
+    17 : "Fauteuil roulant"
 }
 
 color_palette = {
@@ -75,5 +81,8 @@ color_palette = {
     11 : [41, 208, 208],    # CYAN - ski nordique
     12 : [87, 87, 87],      # DARK GREY - natation
     13 : [129, 74, 25],     # BROWN - training
-    14 : [129, 74, 25]      # BROWN - raquette
+    14 : [129, 74, 25],     # BROWN - raquette
+    15 : [129, 74, 25],     # BROWN - yoga
+    16 : [129, 74, 25],     # BROWN - aviron
+    17 : [129, 74, 25]      # BROWN - fauteuil roulant
 }
